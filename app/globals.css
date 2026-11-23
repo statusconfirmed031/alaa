@@ -1,4 +1,4 @@
-/* Fino profile design system and responsive 16:9 page layout. */
+/* WMINFRA profile design system and responsive 16:9 page layout. */
 
 :root{--navy:#353a6d;--ink:#33364d;--muted:#72778d;--mist:#eef0f2;--mist2:#e3e6eb;--white:#fff;--gold:#c29c66;--line:#c8ccd5}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#e9eaed;color:var(--ink);font-family:"Aptos","Avenir Next","Segoe UI",Arial,sans-serif}

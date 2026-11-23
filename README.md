@@ -1,4 +1,4 @@
-# Fino International Company Profile
+# WMINFRA Interior finishing contractors Company Profile
 
 A text-only, design-led edition of the 2025–2026 company profile, implemented as a Next.js App Router site. The profile is served at `/`; no standalone `index.html` is required because `app/page.tsx` is the root route.
 
