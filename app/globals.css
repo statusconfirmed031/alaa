@@ -26,3 +26,5 @@
 .cover-page{padding:0;background:#fff}.cover-page .cover-image{display:block;width:100%;height:100%;object-fit:contain;object-position:center;background:#fff}
 
 .blank-page{background:#fff}
+
+.header-icon{display:block;width:clamp(70px,7vw,120px);height:auto;max-height:90px;object-fit:contain;object-position:left center;mix-blend-mode:multiply}
