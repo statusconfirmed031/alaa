@@ -29,4 +29,4 @@
 
 .header-icon{display:block;width:clamp(70px,7vw,120px);height:auto;max-height:90px;object-fit:contain;object-position:left center;mix-blend-mode:multiply}
 
-.page-watermark{position:absolute;z-index:0;top:50%;left:50%;width:46%;height:68%;transform:translate(-50%,-50%);object-fit:contain;opacity:.15;pointer-events:none}.sheet-top,.sheet-body,.page-number{z-index:1}
+.page-watermark-circle{position:absolute;z-index:0;top:50%;right:-24%;width:80%;height:92%;transform:translateY(-50%);object-fit:contain;opacity:.15;pointer-events:none}.sheet-top,.sheet-body,.page-number{z-index:1}
