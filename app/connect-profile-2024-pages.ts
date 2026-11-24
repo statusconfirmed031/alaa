@@ -12,7 +12,7 @@ function escapeHtml(value: string) {
 }
 
 function renderProject(project: Project, index: number) {
-  const pageNumber = 69 + index;
+  const pageNumber = 21 + index;
   const title = escapeHtml(project.title);
   const category = escapeHtml(project.category);
   const description = escapeHtml(project.description);
