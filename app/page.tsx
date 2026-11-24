@@ -26,7 +26,7 @@ function removeRequestedPagesAndRenumber(markup: string) {
 
 const filteredProfileMarkup = removeRequestedPagesAndRenumber(profileMarkup);
 const tocEnd = '<span class="toc-page">10</span></a></div></div>';
-const archiveLink = '<span class="toc-page">10</span></a><a class="toc-item" href="#p21"><span class="toc-no">09</span><span class="toc-name">Connect Profile 2024 Projects</span><span class="toc-page">21</span></a></div></div>';
+const archiveLink = '<span class="toc-page">10</span></a><a class="toc-item" href="#p21"><span class="toc-no">09</span><span class="toc-name">Additional Projects</span><span class="toc-page">21</span></a></div></div>';
 const withProjectsLink = filteredProfileMarkup.replace(tocEnd, archiveLink);
 const withUpdatedPageCount = withProjectsLink.replace(
   "Company Profile, 68 pages",
