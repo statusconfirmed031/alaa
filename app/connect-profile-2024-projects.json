@@ -1,0 +1,181 @@
+[
+  {
+    "number": 1,
+    "title": "Villa 6",
+    "category": "Residential Type",
+    "description": "This project encapsulates luxury, comfort, and convenience in every detail. Our villa is a testament to its modern aesthetics combined with functionality and spacious interiors that blends with the natural beauty of its surrounding.",
+    "images": [
+      "https://res.cloudinary.com/dgflfauty/image/upload/v1795502388/connect-profile-2024/projects/pdfpage_09_bottom_left.jpg",
+      "https://res.cloudinary.com/dgflfauty/image/upload/v1795502391/connect-profile-2024/projects/pdfpage_09_bottom_right.jpg",
+      "https://res.cloudinary.com/dgflfauty/image/upload/v1795502394/connect-profile-2024/projects/pdfpage_09_top_right.jpg"
+    ]
+  },
+  {
+    "number": 2,
+    "title": "Youssef Al Kaabi Villa",
+    "category": "Residential Type",
+    "description": "Built with a commitment to quality and excellence, the Youssef AlKaabi Villas boast impeccable craftsmanship and premium materials. Every aspect from the flooring to the fixtures, reflects superior quality and attention to detail.",
+    "images": [
+      "https://res.cloudinary.com/dgflfauty/image/upload/v1795502397/connect-profile-2024/projects/pdfpage_10_bottom_left.jpg",
+      "https://res.cloudinary.com/dgflfauty/image/upload/v1795502400/connect-profile-2024/projects/pdfpage_10_bottom_right.jpg",
+      "https://res.cloudinary.com/dgflfauty/image/upload/v1795502403/connect-profile-2024/projects/pdfpage_10_top_right.jpg"
+    ]
+  },
+  {
+    "number": 3,
+    "title": "1BHK Studio Design",
+    "category": "Residential Type",
+    "description": "The integrated living space combines the kitchen, dining, and living areas, featuring clean and neutral colors, and an open layout. A partial wall or decorative screen provides privacy for the bedroom within this integrated design.",
+    "images": [
+      "https://res.cloudinary.com/dgflfauty/image/upload/v1795502406/connect-profile-2024/projects/pdfpage_11_bottom_left.jpg",
+      "https://res.cloudinary.com/dgflfauty/image/upload/v1795502408/connect-profile-2024/projects/pdfpage_11_bottom_right.jpg",
+      "https://res.cloudinary.com/dgflfauty/image/upload/v1795502412/connect-profile-2024/projects/pdfpage_11_top_right.jpg"
+    ]
+  },
+  {
+    "number": 4,
+    "title": "Ameera Compound",
+    "category": "Residential Type",
+    "description": "Ameera Compound's interior design harmonizes modern aesthetics with functionality, creating elegant and practical spaces that cater to residents' needs while maintaining a refined and inviting ambiance.",
+    "images": [
+      "https://res.cloudinary.com/dgflfauty/image/upload/v1795502414/connect-profile-2024/projects/pdfpage_12_bottom_left.jpg",
+      "https://res.cloudinary.com/dgflfauty/image/upload/v1795502417/connect-profile-2024/projects/pdfpage_12_bottom_right.jpg",
+      "https://res.cloudinary.com/dgflfauty/image/upload/v1795502420/connect-profile-2024/projects/pdfpage_12_top_right.jpg"
+    ]
+  },
+  {
+    "number": 5,
+    "title": "Sheikh Farmhouse",
+    "category": "Residential Type",
+    "description": "Our design blends Arabian luxury with modern elegance, featuring grand arches, rich tones, and luxurious fabrics in a spacious living area. A focal stone anchors the space, while offering a bespoke comfort and serene views.",
+    "images": [
+      "https://res.cloudinary.com/dgflfauty/image/upload/v1795502423/connect-profile-2024/projects/pdfpage_13_bottom_left.jpg",
+      "https://res.cloudinary.com/dgflfauty/image/upload/v1795502426/connect-profile-2024/projects/pdfpage_13_bottom_right.jpg",
+      "https://res.cloudinary.com/dgflfauty/image/upload/v1795502429/connect-profile-2024/projects/pdfpage_13_top_right.jpg"
+    ]
+  },
+  {
+    "number": 6,
+    "title": "Fiorangelo",
+    "category": "Retail Shops",
+    "description": "The layout features an open layout plan, an airy ambiance that encourages exploration while maintaining a sense of exclusivity. Each section within the shop is meticulously arranged for an effortless shopping experience.",
+    "images": [
+      "https://res.cloudinary.com/dgflfauty/image/upload/v1795502432/connect-profile-2024/projects/pdfpage_14_bottom_left.jpg",
+      "https://res.cloudinary.com/dgflfauty/image/upload/v1795502435/connect-profile-2024/projects/pdfpage_14_bottom_right.jpg",
+      "https://res.cloudinary.com/dgflfauty/image/upload/v1795502438/connect-profile-2024/projects/pdfpage_14_top_right.jpg"
+    ]
+  },
+  {
+    "number": 7,
+    "title": "Office Rooms",
+    "category": "Commercial Spaces",
+    "description": "Our approach redefines modern workspaces. Our vision harmonizes functionality & aesthetics to craft an environment ideal for business success. This concept transforms workspaces into optimal settings, fostering excellence and success.",
+    "images": [
+      "https://res.cloudinary.com/dgflfauty/image/upload/v1795502440/connect-profile-2024/projects/pdfpage_15_bottom_left.jpg",
+      "https://res.cloudinary.com/dgflfauty/image/upload/v1795502443/connect-profile-2024/projects/pdfpage_15_bottom_right.jpg",
+      "https://res.cloudinary.com/dgflfauty/image/upload/v1795502446/connect-profile-2024/projects/pdfpage_15_top_right.jpg"
+    ]
+  },
+  {
+    "number": 8,
+    "title": "Container Offices",
+    "category": "Commercial Spaces",
+    "description": "SBTC repurpose shipping containers into sleek, well-lit workspaces. They feature versatile layouts with modular furniture for collaboration, efficient storage, and relaxed breakout areas with cozy accents. This design merges modern style with eco-consciousness and creativity.",
+    "images": [
+      "https://res.cloudinary.com/dgflfauty/image/upload/v1795502449/connect-profile-2024/projects/pdfpage_16_bottom_left.jpg",
+      "https://res.cloudinary.com/dgflfauty/image/upload/v1795502452/connect-profile-2024/projects/pdfpage_16_bottom_right.jpg",
+      "https://res.cloudinary.com/dgflfauty/image/upload/v1795502454/connect-profile-2024/projects/pdfpage_16_top_right.jpg"
+    ]
+  },
+  {
+    "number": 9,
+    "title": "Oryx Office",
+    "category": "Commercial Spaces",
+    "description": "This design not only elevates the aesthetic appeal but also fosters a conducive environment for seamless workflow and innovative thinking. Perfect balance between contemporary and practicality. An environment tailored to inspire creativity & collaboration.",
+    "images": [
+      "https://res.cloudinary.com/dgflfauty/image/upload/v1795502457/connect-profile-2024/projects/pdfpage_17_bottom_left.jpg",
+      "https://res.cloudinary.com/dgflfauty/image/upload/v1795502460/connect-profile-2024/projects/pdfpage_17_bottom_right.jpg",
+      "https://res.cloudinary.com/dgflfauty/image/upload/v1795502463/connect-profile-2024/projects/pdfpage_17_top_right.jpg"
+    ]
+  },
+  {
+    "number": 10,
+    "title": "Ministry Of Development",
+    "category": "Commercial Spaces",
+    "description": "The designed layout, tailored specifically for Expo 2023 event in Qatar, optimizing both space and efficiency. This thoughtful design seamlessly intertwines open collaborative zones with private areas providing a harmony and balance.",
+    "images": [
+      "https://res.cloudinary.com/dgflfauty/image/upload/v1795502466/connect-profile-2024/projects/pdfpage_18_bottom_left.jpg",
+      "https://res.cloudinary.com/dgflfauty/image/upload/v1795502469/connect-profile-2024/projects/pdfpage_18_bottom_right.jpg",
+      "https://res.cloudinary.com/dgflfauty/image/upload/v1795502472/connect-profile-2024/projects/pdfpage_18_top_right.jpg"
+    ]
+  },
+  {
+    "number": 11,
+    "title": "Eau De Rose",
+    "category": "Food & Beverages",
+    "description": "The design incorporates inviting and cozy spaces that encourage patrons to relax and unwind. Comfortable seating arrangements, plush furnishings, and warm lighting contribute to a welcoming atmosphere.",
+    "images": [
+      "https://res.cloudinary.com/dgflfauty/image/upload/v1795502475/connect-profile-2024/projects/pdfpage_19_bottom_left.jpg",
+      "https://res.cloudinary.com/dgflfauty/image/upload/v1795502478/connect-profile-2024/projects/pdfpage_19_bottom_right.jpg",
+      "https://res.cloudinary.com/dgflfauty/image/upload/v1795502481/connect-profile-2024/projects/pdfpage_19_top_right.jpg"
+    ]
+  },
+  {
+    "number": 12,
+    "title": "Cioccolati Italiani",
+    "category": "Food & Beverages",
+    "description": "Cioccolati Italiani's concept design is an ode to chocolate indulgence, offering a sophisticated coffee shop experience that celebrates the artistry and richness of chocolate-infused delights. featuring subtle chocolate-themed décor that evoke a sense of luxury and decadence.",
+    "images": [
+      "https://res.cloudinary.com/dgflfauty/image/upload/v1795502484/connect-profile-2024/projects/pdfpage_20_bottom_left.jpg",
+      "https://res.cloudinary.com/dgflfauty/image/upload/v1795502487/connect-profile-2024/projects/pdfpage_20_bottom_right.jpg",
+      "https://res.cloudinary.com/dgflfauty/image/upload/v1795502490/connect-profile-2024/projects/pdfpage_20_top_right.jpg"
+    ]
+  },
+  {
+    "number": 13,
+    "title": "Craft Burger",
+    "category": "Food & Beverages",
+    "description": "Craft Burger's design captures the culinary excellence, presenting a dining experience that honors the craft of handcrafted burgers. Every detail celebrates the artistry of gourmet burgers in a relaxed yet refined setting.",
+    "images": [
+      "https://res.cloudinary.com/dgflfauty/image/upload/v1795502493/connect-profile-2024/projects/pdfpage_21_bottom_left.jpg",
+      "https://res.cloudinary.com/dgflfauty/image/upload/v1795502496/connect-profile-2024/projects/pdfpage_21_bottom_right.jpg",
+      "https://res.cloudinary.com/dgflfauty/image/upload/v1795502499/connect-profile-2024/projects/pdfpage_21_top_right.jpg"
+    ]
+  },
+  {
+    "number": 14,
+    "title": "Piroshki",
+    "category": "Food & Beverages",
+    "description": "Piroshki's interior design which features a handmade wall painting elevate the ambiance for savoring Russian pastries. The fusion of intricate designs and cozy settings creates an inviting space where the joy of these delicacies is not just about taste but also a visual and sensory delight.",
+    "images": [
+      "https://res.cloudinary.com/dgflfauty/image/upload/v1795502501/connect-profile-2024/projects/pdfpage_22_bottom_left.jpg",
+      "https://res.cloudinary.com/dgflfauty/image/upload/v1795502504/connect-profile-2024/projects/pdfpage_22_bottom_right.jpg",
+      "https://res.cloudinary.com/dgflfauty/image/upload/v1795502507/connect-profile-2024/projects/pdfpage_22_top_right.jpg"
+    ]
+  },
+  {
+    "number": 15,
+    "title": "Civil Work",
+    "category": "Civil Work",
+    "description": "Civil work in architectural design focuses on constructing the essential structural elements like foundations, walls, and beams, aligning engineering with architectural vision for a safe, functional structure.",
+    "images": [
+      "https://res.cloudinary.com/dgflfauty/image/upload/v1795502510/connect-profile-2024/projects/pdfpage_23_bottom_left.jpg",
+      "https://res.cloudinary.com/dgflfauty/image/upload/v1795502513/connect-profile-2024/projects/pdfpage_23_bottom_right.jpg",
+      "https://res.cloudinary.com/dgflfauty/image/upload/v1795502517/connect-profile-2024/projects/pdfpage_23_top_right.jpg"
+    ]
+  },
+  {
+    "number": 16,
+    "title": "Finishing",
+    "category": "Finishing Work",
+    "description": "Finishing work, the final construction phase, involves detailing and refining surfaces through tasks like painting, flooring, and fixtures, enhancing both appearance and functionality.",
+    "images": []
+  },
+  {
+    "number": 17,
+    "title": "Tile Design",
+    "category": "Finishing Work",
+    "description": "Tile design involves selecting and arranging tiles to enhance surfaces. It includes choosing tiles based on material, color, and layout for aesthetic appeal and functionality in spaces.",
+    "images": []
+  }
+]
