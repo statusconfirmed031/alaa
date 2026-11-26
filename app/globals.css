@@ -393,6 +393,24 @@
   font-size: clamp(8px, .65vw, 13px);
   line-height: 1.18;
 }
+.milestones-page {
+  background-color: #f8f7f3;
+  background-image: url('/images/milestones-header-art.png');
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+.milestones-page .page-watermark-circle { opacity: 0; }
+.milestones-top { top: 4.4%; }
+.milestones-brand { display: flex; align-items: center; width: 100%; gap: 2.1%; }
+.milestones-brand .header-icon { width: clamp(70px, 7vw, 112px); }
+.milestones-brand-divider { width: 1px; height: clamp(42px, 4.5vw, 70px); background: #626b7d; }
+.milestones-brand .kicker { color: var(--navy); white-space: nowrap; font-size: clamp(8px, .72vw, 14px); }
+.milestones-top-rule { flex: 1; height: 4px; margin-left: 1%; background: linear-gradient(90deg, #b8beca 0 84%, #167ce0 84% 100%); }
+.milestones-page .sheet-body { padding-top: 7%; }
+.milestones-title-block { margin-bottom: 1.5%; }
+.milestones-title-block h1 { font-size: clamp(40px, 5.1vw, 92px); letter-spacing: -.055em; }
+.milestones-title-block .title-rule { width: clamp(70px, 8vw, 150px); height: 5px; margin-top: .45em; background: #167ce0; }
 @media(max-width:620px){
   .founder-profile-page .sheet-body { inset: 12% 5% 8%; }
   .founder-profile-layout { grid-template-columns: .9fr 1.1fr; gap: 4%; }
@@ -407,4 +425,12 @@
   .project-name-grid { grid-template-columns: repeat(3, 1fr); grid-template-rows: repeat(5, 1fr); gap: 3px; height: 48%; }
   .project-name-grid .milestone { padding: 4px; }
   .project-name-grid .milestone strong { font-size: 4px; }
+  .milestones-brand { gap: 2%; }
+  .milestones-brand .header-icon { width: 42px; }
+  .milestones-brand-divider { height: 28px; }
+  .milestones-brand .kicker { font-size: 5px; }
+  .milestones-top-rule { height: 2px; }
+  .milestones-page .sheet-body { padding-top: 5%; }
+  .milestones-title-block h1 { font-size: clamp(18px, 5.1vw, 26px); }
+  .milestones-title-block .title-rule { width: 42px; height: 2px; }
 }
