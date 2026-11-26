@@ -398,6 +398,43 @@
   font-size: clamp(11px, .82vw, 16px);
   line-height: 1.22;
 }
+.portfolio-logo-grid {
+  height: auto;
+  min-height: 0;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-rows: repeat(4, 1fr);
+  gap: 10px;
+}
+.portfolio-logo-card {
+  min-width: 0;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 10px 9px;
+  background: rgba(255,255,255,.9);
+  border: 1px solid #e0e3e9;
+  border-radius: 8px;
+  box-shadow: 0 5px 16px rgba(35,43,75,.08);
+}
+.portfolio-logo-card img {
+  display: block;
+  width: 100%;
+  height: 68%;
+  object-fit: contain;
+  mix-blend-mode: multiply;
+}
+.portfolio-logo-card span {
+  color: var(--muted);
+  font-size: clamp(7px, .55vw, 11px);
+  line-height: 1.1;
+  text-align: center;
+}
+.portfolio-page .portfolio-intro > p:not(.kicker) { max-width: 360px; }
+.portfolio-page .sheet-body { align-items: stretch; }
+.portfolio-page .portfolio-intro { align-self: center; }
 .milestones-page {
   background-color: #f8f7f3;
   background-image: url('/images/milestones-header-art.png');
@@ -438,4 +475,7 @@
   .milestones-page .sheet-body { padding-top: 5%; }
   .milestones-title-block h1 { font-size: clamp(18px, 5.1vw, 26px); }
   .milestones-title-block .title-rule { width: 42px; height: 2px; }
+  .portfolio-logo-grid { gap: 4px; }
+  .portfolio-logo-card { padding: 5px 4px 4px; border-radius: 3px; }
+  .portfolio-logo-card span { font-size: 4px; }
 }
