@@ -372,6 +372,27 @@
   font-weight: 650;
   line-height: 1.25;
 }
+.project-name-grid {
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(9, 1fr);
+  height: 70%;
+  gap: 7px;
+}
+.project-name-grid .milestone {
+  grid-column: auto !important;
+  grid-row: auto !important;
+  min-width: 0;
+  min-height: 0;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border-top-width: 2px;
+}
+.project-name-grid .milestone strong {
+  color: var(--navy);
+  font-size: clamp(8px, .65vw, 13px);
+  line-height: 1.18;
+}
 @media(max-width:620px){
   .founder-profile-page .sheet-body { inset: 12% 5% 8%; }
   .founder-profile-layout { grid-template-columns: .9fr 1.1fr; gap: 4%; }
@@ -383,4 +404,7 @@
   .founder-offers-heading { font-size: clamp(5px, 1vw, 8px); margin: .55em 0 .3em; }
   .founder-offers { gap: 4px; }
   .founder-offers span { padding: 3px 4px; font-size: 4px; line-height: 1.15; }
+  .project-name-grid { grid-template-columns: repeat(3, 1fr); grid-template-rows: repeat(11, 1fr); gap: 3px; height: 73%; }
+  .project-name-grid .milestone { padding: 4px; }
+  .project-name-grid .milestone strong { font-size: 4px; }
 }
