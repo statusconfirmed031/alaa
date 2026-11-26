@@ -257,3 +257,53 @@
 #p3 .promise-panel { display: none; }
 #p3 .split-company { grid-template-columns: 1fr; }
 #p3 .company-copy { max-width: 72%; }
+
+/* Page 03: combined company profile and Qatar office details. */
+#p3.company-page .sheet-body { inset: 12% 5.7% 8%; }
+#p3 .company-combined {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1.1fr .9fr;
+  gap: 8%;
+  align-items: center;
+}
+#p3 .company-copy { max-width: none; }
+#p3 .company-copy h1 { margin: 0 0 .55em; }
+#p3 .company-copy p { max-width: 92%; }
+#p3 .company-contact {
+  padding: 8% 9%;
+  background: linear-gradient(155deg, #e3e7ed, #f5f6f8);
+  border-radius: 14px;
+  border-left: 4px solid var(--navy);
+}
+#p3 .company-contact h2 {
+  margin: .7em 0 .9em;
+  color: var(--navy);
+  font-size: clamp(20px, 2vw, 36px);
+  line-height: 1.05;
+}
+#p3 .contact-address,
+#p3 .contact-lines,
+#p3 .contact-email { color: var(--navy); font-size: clamp(13px, 1.05vw, 20px); line-height: 1.45; }
+#p3 .contact-address { margin: 0 0 1em; }
+#p3 .contact-lines { margin: .65em 0; font-weight: 650; }
+#p3 .contact-email { margin-top: 1.1em; font-weight: 750; overflow-wrap: anywhere; }
+#p3 .combined-offices {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: .45em 1em;
+  margin-top: 1.2em;
+  padding-top: 1em;
+  border-top: 1px solid #cdd1dc;
+  color: var(--muted);
+  font-size: clamp(10px, .78vw, 14px);
+}
+#p3 .combined-offices span:nth-child(odd) { color: var(--navy); font-weight: 750; }
+@media(max-width:620px){
+  #p3 .company-combined { grid-template-columns: 1fr 1fr; gap: 4%; }
+  #p3 .company-copy p { max-width: 100%; }
+  #p3 .company-contact { padding: 6%; }
+  #p3 .company-contact h2 { font-size: 13px; }
+  #p3 .contact-address, #p3 .contact-lines, #p3 .contact-email { font-size: 8px; }
+  #p3 .combined-offices { font-size: 6px; gap: .35em .5em; }
+}
