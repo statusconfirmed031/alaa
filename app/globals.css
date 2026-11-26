@@ -173,7 +173,7 @@
   top: 17%;
   bottom: auto;
   width: auto;
-  height: 32%;
+  height: 28%;
   display: grid;
   grid-template-columns: .8fr 1.55fr;
   grid-template-rows: auto auto auto;
@@ -206,13 +206,13 @@
   align-self: center;
   max-width: 100%;
   margin: 0;
-  font-size: clamp(28px, 4.8vw, 84px);
+  font-size: clamp(21px, 3.6vw, 63px);
   line-height: 1.2;
 }
 .project-detail-page.with-gallery .project-detail-gallery {
   left: 5.7%;
   right: 5.7%;
-  top: 64%;
+  top: 50%;
   bottom: 8%;
   width: auto;
   height: auto;
@@ -235,22 +235,22 @@
   box-shadow: none;
 }
 @media(max-width:900px){
-  .project-detail-page.with-gallery .project-detail-body { left: 5%; right: 5%; top: 16%; height: 32%; column-gap: 5%; }
+  .project-detail-page.with-gallery .project-detail-body { left: 5%; right: 5%; top: 16%; height: 28%; column-gap: 5%; }
   .project-detail-page.with-gallery .project-detail-body h1 { font-size: clamp(27px, 4.4vw, 54px); }
-  .project-detail-page.with-gallery .project-detail-description { font-size: clamp(18px, 3.2vw, 42px); line-height: 1.2; }
-  .project-detail-page.with-gallery .project-detail-gallery { left: 5%; right: 5%; top: 64%; bottom: 8%; gap: 1.5%; }
+  .project-detail-page.with-gallery .project-detail-description { font-size: clamp(14px, 2.4vw, 32px); line-height: 1.2; }
+  .project-detail-page.with-gallery .project-detail-gallery { left: 5%; right: 5%; top: 50%; bottom: 8%; gap: 1.5%; }
 }
 @media(max-width:620px){
-  .project-detail-page.with-gallery .project-detail-body { left: 4%; right: 4%; top: 15%; height: 32%; column-gap: 4%; }
+  .project-detail-page.with-gallery .project-detail-body { left: 4%; right: 4%; top: 15%; height: 28%; column-gap: 4%; }
   .project-detail-page.with-gallery .project-detail-body h1 { font-size: clamp(21px, 4.2vw, 34px); }
-  .project-detail-page.with-gallery .project-detail-description { font-size: clamp(12px, 2.7vw, 24px); line-height: 1.2; }
-  .project-detail-page.with-gallery .project-detail-gallery { left: 4%; right: 4%; top: 64%; bottom: 8%; gap: 1%; }
+  .project-detail-page.with-gallery .project-detail-description { font-size: clamp(10px, 2vw, 18px); line-height: 1.2; }
+  .project-detail-page.with-gallery .project-detail-gallery { left: 4%; right: 4%; top: 50%; bottom: 8%; gap: 1%; }
 }
 @media print{
-  .project-detail-page.with-gallery .project-detail-body { left: 5.7%; right: 5.7%; top: 17%; height: 32%; }
+  .project-detail-page.with-gallery .project-detail-body { left: 5.7%; right: 5.7%; top: 17%; height: 28%; }
   .project-detail-page.with-gallery .project-detail-body h1 { font-size: 42pt; }
-  .project-detail-page.with-gallery .project-detail-description { font-size: 36pt; line-height: 1.2; }
-  .project-detail-page.with-gallery .project-detail-gallery { left: 5.7%; right: 5.7%; top: 64%; bottom: 8%; }
+  .project-detail-page.with-gallery .project-detail-description { font-size: 27pt; line-height: 1.2; }
+  .project-detail-page.with-gallery .project-detail-gallery { left: 5.7%; right: 5.7%; top: 50%; bottom: 8%; }
 }
 
 /* Page 03: remove the promise/statistics panel shown in the reference. */
