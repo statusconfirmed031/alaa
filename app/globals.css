@@ -252,3 +252,8 @@
   .project-detail-page.with-gallery .project-detail-description { font-size: 12pt; }
   .project-detail-page.with-gallery .project-detail-gallery { left: 5.7%; right: 5.7%; top: 42%; bottom: 8%; }
 }
+
+/* Page 03: remove the promise/statistics panel shown in the reference. */
+#p3 .promise-panel { display: none; }
+#p3 .split-company { grid-template-columns: 1fr; }
+#p3 .company-copy { max-width: 72%; }
