@@ -170,7 +170,7 @@
 .project-detail-page.with-gallery .project-detail-body {
   left: 5.7%;
   right: 5.7%;
-  top: 14%;
+  top: 17%;
   bottom: auto;
   width: auto;
   height: 24%;
@@ -206,7 +206,7 @@
   align-self: center;
   max-width: 100%;
   margin: 0;
-  font-size: clamp(13px, 1.05vw, 21px);
+  font-size: clamp(14px, 1.2vw, 24px);
   line-height: 1.45;
 }
 .project-detail-page.with-gallery .project-detail-gallery {
@@ -235,21 +235,21 @@
   box-shadow: none;
 }
 @media(max-width:900px){
-  .project-detail-page.with-gallery .project-detail-body { left: 5%; right: 5%; top: 13%; height: 25%; column-gap: 5%; }
+  .project-detail-page.with-gallery .project-detail-body { left: 5%; right: 5%; top: 16%; height: 25%; column-gap: 5%; }
   .project-detail-page.with-gallery .project-detail-body h1 { font-size: clamp(27px, 4.4vw, 54px); }
-  .project-detail-page.with-gallery .project-detail-description { font-size: clamp(10px, 1.35vw, 15px); }
+  .project-detail-page.with-gallery .project-detail-description { font-size: clamp(11px, 1.45vw, 17px); }
   .project-detail-page.with-gallery .project-detail-gallery { left: 5%; right: 5%; top: 41%; bottom: 8%; gap: 1.5%; }
 }
 @media(max-width:620px){
-  .project-detail-page.with-gallery .project-detail-body { left: 4%; right: 4%; top: 12%; height: 27%; column-gap: 4%; }
+  .project-detail-page.with-gallery .project-detail-body { left: 4%; right: 4%; top: 15%; height: 27%; column-gap: 4%; }
   .project-detail-page.with-gallery .project-detail-body h1 { font-size: clamp(21px, 4.2vw, 34px); }
-  .project-detail-page.with-gallery .project-detail-description { font-size: clamp(7px, 1.45vw, 10px); }
+  .project-detail-page.with-gallery .project-detail-description { font-size: clamp(8px, 1.55vw, 11px); }
   .project-detail-page.with-gallery .project-detail-gallery { left: 4%; right: 4%; top: 42%; bottom: 8%; gap: 1%; }
 }
 @media print{
-  .project-detail-page.with-gallery .project-detail-body { left: 5.7%; right: 5.7%; top: 14%; height: 24%; }
+  .project-detail-page.with-gallery .project-detail-body { left: 5.7%; right: 5.7%; top: 17%; height: 24%; }
   .project-detail-page.with-gallery .project-detail-body h1 { font-size: 42pt; }
-  .project-detail-page.with-gallery .project-detail-description { font-size: 12pt; }
+  .project-detail-page.with-gallery .project-detail-description { font-size: 14pt; }
   .project-detail-page.with-gallery .project-detail-gallery { left: 5.7%; right: 5.7%; top: 42%; bottom: 8%; }
 }
 
