@@ -34,10 +34,23 @@ const withUpdatedPageCount = withProjectsLink.replace(
   "Company Profile, 68 pages",
   "Company Profile, 37 pages",
 );
-const profileWithProjectPages = withUpdatedPageCount.replace(
-  "</main>",
-  `${connectProfile2024PagesMarkup}</main>`,
-);
+const projectSections = connectProfile2024PagesMarkup.match(/<section\b[\s\S]*?<\/section>/g) ?? [];
+const pages21to35 = projectSections
+  .filter((section) => {
+    const pageId = Number(section.match(/\bid="p(\d+)"/)?.[1] ?? 0);
+    return pageId >= 21 && pageId <= 35;
+  })
+  .join("");
+const remainingProjectPages = projectSections
+  .filter((section) => {
+    const pageId = Number(section.match(/\bid="p(\d+)"/)?.[1] ?? 0);
+    return pageId < 21 || pageId > 35;
+  })
+  .join("");
+const page10End = withUpdatedPageCount.indexOf("</section>", withUpdatedPageCount.indexOf('id="p10"')) + "</section>".length;
+const profileBeforePage11 = withUpdatedPageCount.slice(0, page10End);
+const profileAfterPage10 = withUpdatedPageCount.slice(page10End).replace("</main>", "");
+const profileWithProjectPages = `${profileBeforePage11}${pages21to35}${profileAfterPage10}${remainingProjectPages}</main>`;
 
 export default function HomePage() {
   return <div dangerouslySetInnerHTML={{ __html: profileWithProjectPages }} />;
