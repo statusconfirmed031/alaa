@@ -346,10 +346,41 @@
   line-height: 1.5;
   margin: .8em 0;
 }
+.founder-history-heading {
+  margin: 1.1em 0 .45em;
+  color: var(--navy);
+  font-size: clamp(18px, 1.8vw, 32px);
+  line-height: 1.05;
+}
+.founder-offers-heading {
+  margin: 1em 0 .5em;
+  color: var(--navy);
+  font-size: clamp(13px, 1.1vw, 20px);
+  line-height: 1.2;
+}
+.founder-offers {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+.founder-offers span {
+  padding: 9px 11px;
+  background: #e5e8ee;
+  border-radius: 4px;
+  color: var(--navy);
+  font-size: clamp(9px, .72vw, 13px);
+  font-weight: 650;
+  line-height: 1.25;
+}
 @media(max-width:620px){
   .founder-profile-page .sheet-body { inset: 12% 5% 8%; }
   .founder-profile-layout { grid-template-columns: .9fr 1.1fr; gap: 4%; }
   .founder-profile-photo { width: 92%; height: 60%; }
-  .founder-profile-copy h1 { font-size: clamp(20px, 4vw, 32px); }
-  .founder-profile-copy p:not(.kicker) { font-size: clamp(8px, 1.35vw, 11px); }
+  .founder-profile-copy h1 { font-size: clamp(10px, 4vw, 20px); }
+  .founder-profile-copy .title-rule { margin: .45em 0 .6em; height: 1px; }
+  .founder-profile-copy p:not(.kicker) { font-size: clamp(4px, 1.35vw, 7px); line-height: 1.2; margin: .35em 0; }
+  .founder-history-heading { font-size: clamp(8px, 1.6vw, 13px); margin: .55em 0 .3em; }
+  .founder-offers-heading { font-size: clamp(5px, 1vw, 8px); margin: .55em 0 .3em; }
+  .founder-offers { gap: 4px; }
+  .founder-offers span { padding: 3px 4px; font-size: 4px; line-height: 1.15; }
 }
