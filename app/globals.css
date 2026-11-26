@@ -307,3 +307,48 @@
   #p3 .contact-address, #p3 .contact-lines, #p3 .contact-email { font-size: 8px; }
   #p3 .combined-offices { font-size: 6px; gap: .35em .5em; }
 }
+
+/* Page 05 after the Company/Locations merge: founder profile. */
+.founder-profile-page .sheet-body { inset: 14% 7% 9%; }
+.founder-profile-layout {
+  height: 100%;
+  display: grid;
+  grid-template-columns: .9fr 1.1fr;
+  gap: 8%;
+  align-items: center;
+}
+.founder-profile-photo {
+  height: 78%;
+  overflow: hidden;
+  border-radius: 10px;
+  background: #e5e8ee;
+  box-shadow: 0 10px 28px rgba(18, 35, 72, .14);
+}
+.founder-profile-photo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.founder-profile-copy { max-width: 720px; }
+.founder-profile-copy h1 {
+  margin: .35em 0 .15em;
+  color: var(--navy);
+  font-size: clamp(30px, 4.2vw, 76px);
+  line-height: 1;
+}
+.founder-profile-copy .title-rule { margin: .8em 0 1.2em; }
+.founder-profile-copy p:not(.kicker) {
+  color: #4d5267;
+  font-size: clamp(14px, 1.15vw, 21px);
+  line-height: 1.5;
+  margin: .8em 0;
+}
+@media(max-width:620px){
+  .founder-profile-page .sheet-body { inset: 12% 5% 8%; }
+  .founder-profile-layout { grid-template-columns: .9fr 1.1fr; gap: 4%; }
+  .founder-profile-photo { height: 65%; }
+  .founder-profile-copy h1 { font-size: clamp(20px, 4vw, 32px); }
+  .founder-profile-copy p:not(.kicker) { font-size: clamp(8px, 1.35vw, 11px); }
+}
