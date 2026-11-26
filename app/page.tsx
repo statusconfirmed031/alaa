@@ -2,8 +2,10 @@ import { connectProfile2024PagesMarkup } from "./connect-profile-2024-pages";
 import { profileMarkup } from "./profile-markup";
 
 // These source page IDs were matched against the user's requested title list.
-// Page 39 (Ministry of Interior Doha, Qatar) is intentionally retained.
+// Source pages 12 and 39 render as visible pages 11 and 12 and are removed.
 const removedPageIds = new Set<number>([
+  12,
+  39,
   ...Array.from({ length: 26 }, (_, index) => index + 13),
   ...Array.from({ length: 22 }, (_, index) => index + 40),
 ]);
