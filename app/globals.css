@@ -374,8 +374,8 @@
 }
 .project-name-grid {
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(9, 1fr);
-  height: 70%;
+  grid-template-rows: repeat(4, 1fr);
+  height: 48%;
   gap: 7px;
 }
 .project-name-grid .milestone {
@@ -404,7 +404,7 @@
   .founder-offers-heading { font-size: clamp(5px, 1vw, 8px); margin: .55em 0 .3em; }
   .founder-offers { gap: 4px; }
   .founder-offers span { padding: 3px 4px; font-size: 4px; line-height: 1.15; }
-  .project-name-grid { grid-template-columns: repeat(3, 1fr); grid-template-rows: repeat(11, 1fr); gap: 3px; height: 73%; }
+  .project-name-grid { grid-template-columns: repeat(3, 1fr); grid-template-rows: repeat(5, 1fr); gap: 3px; height: 48%; }
   .project-name-grid .milestone { padding: 4px; }
   .project-name-grid .milestone strong { font-size: 4px; }
 }
