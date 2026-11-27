@@ -35,7 +35,7 @@ function renderProject(project: Project, index: number) {
         .join("")}</div>`
     : "";
 
-  return `<section class="sheet project-detail-page${mainGallery ? " with-gallery" : " no-gallery"}" id="p${pageNumber}" aria-label="Page ${pageNumber}: ${title}"><img class="page-watermark-circle" src="images/page-watermark-circle.png" alt="" aria-hidden="true" /><div class="sheet-top"><img class="header-icon" src="images/header-icon.png" alt="WMINFRA" /></div><div class="project-detail-body"><p class="kicker">${category}</p><h1>${title}</h1><span class="title-rule"></span><p class="project-detail-description">${description}</p></div>${mainGallery}<div class="page-number">${pageNumber}</div></section>`;
+  return `<section class="sheet project-detail-page${mainGallery ? " with-gallery" : " no-gallery"}" id="p${pageNumber}" aria-label="Page ${pageNumber}: ${title}"><img class="page-watermark-circle" src="images/page-watermark-circle.png" alt="" aria-hidden="true" /><div class="sheet-top"><img class="header-icon" src="https://res.cloudinary.com/dgflfauty/image/upload/v1795823089/wminfra/profile/wminfra-header-lockup.png" alt="WMINFRA" /></div><div class="project-detail-body"><p class="kicker">${category}</p><h1>${title}</h1><span class="title-rule"></span><p class="project-detail-description">${description}</p></div>${mainGallery}<div class="page-number">${pageNumber}</div></section>`;
 }
 
 export const connectProfile2024PagesMarkup = projects
