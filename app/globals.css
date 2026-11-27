@@ -470,7 +470,7 @@
 .villa-showcase-gallery img { width: 100%; height: 100%; min-height: 0; object-fit: cover; border-radius: 8px; box-shadow: 0 7px 20px rgba(18,35,72,.14); border: 1px solid rgba(255,255,255,.85); }
 .villa-showcase-gallery figcaption { padding: 6px 2px 0; color: var(--muted); font-size: clamp(7px, .55vw, 11px); line-height: 1.15; }
 .quality-policy-page { background: #fff; }
-.quality-policy-page .quality-policy-image { position: absolute; top: 10%; left: 0; display: block; width: 100%; height: 90%; object-fit: contain; object-position: center; }
+.quality-policy-page .quality-policy-image { position: absolute; top: 30%; left: 0; display: block; width: 100%; height: 70%; object-fit: contain; object-position: center; }
 .quality-policy-page .page-number { z-index: 2; }
 .brochure-project-page { background: linear-gradient(118deg, #f7f8f9 0%, #eef0f3 62%, #e2e5eb 100%); }
 .brochure-project-copy { position: absolute; z-index: 2; left: 7%; top: 18%; width: 29%; }
