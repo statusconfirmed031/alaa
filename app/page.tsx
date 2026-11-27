@@ -8,6 +8,9 @@ const removedPageIds = new Set<number>([
   39,
   ...Array.from({ length: 26 }, (_, index) => index + 13),
   ...Array.from({ length: 22 }, (_, index) => index + 40),
+  66,
+  67,
+  68,
 ]);
 
 function removeRequestedPagesAndRenumber(markup: string) {
@@ -32,7 +35,7 @@ const archiveLink = '<span class="toc-page">10</span></a><a class="toc-item" hre
 const withProjectsLink = filteredProfileMarkup.replace(tocEnd, archiveLink);
 const withUpdatedPageCount = withProjectsLink.replace(
   "Company Profile, 68 pages",
-  "Company Profile, 42 pages",
+  "Company Profile, 39 pages",
 );
 const projectSections = connectProfile2024PagesMarkup.match(/<section\b[\s\S]*?<\/section>/g) ?? [];
 const pages21to35 = projectSections
