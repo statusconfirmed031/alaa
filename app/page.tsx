@@ -32,7 +32,7 @@ const archiveLink = '<span class="toc-page">10</span></a><a class="toc-item" hre
 const withProjectsLink = filteredProfileMarkup.replace(tocEnd, archiveLink);
 const withUpdatedPageCount = withProjectsLink.replace(
   "Company Profile, 68 pages",
-  "Company Profile, 38 pages",
+  "Company Profile, 39 pages",
 );
 const projectSections = connectProfile2024PagesMarkup.match(/<section\b[\s\S]*?<\/section>/g) ?? [];
 const pages21to35 = projectSections
@@ -51,7 +51,8 @@ const page10End = withUpdatedPageCount.indexOf("</section>", withUpdatedPageCoun
 const profileBeforePage11 = withUpdatedPageCount.slice(0, page10End);
 const profileAfterPage10 = withUpdatedPageCount.slice(page10End).replace("</main>", "");
 const selectedVillaWorksPage = `<section class="sheet villa-showcase-page" id="p38" aria-label="Page 38: Selected Villa Works"><img class="page-watermark-circle" src="images/page-watermark-circle.png" alt="" aria-hidden="true" /><div class="sheet-top"><img class="header-icon" src="images/header-icon.png" alt="WMINFRA" /></div><div class="villa-showcase-body"><div class="villa-showcase-copy"><p class="kicker">SELECTED VILLA WORKS</p><h1>Villa work,<br />inside and out.</h1><span class="title-rule"></span><p>WMINFRA’s supplied profile describes concrete works and finishing works across 10 villa projects, supported by coordinated interior fit-out, MEP, and construction delivery.</p><div class="villa-showcase-facts"><span><strong>10</strong> villa projects</span><span><strong>01</strong> integrated contracting partner</span><span><strong>Scope</strong> concrete &amp; finishing works</span></div><p class="villa-showcase-source">Client name as printed in the supplied profile: Al Muasron Trading &amp; Contracting. Project-specific scope should be confirmed before external publication.</p></div><div class="villa-showcase-gallery"><figure><img src="/images/villa-works/villa-project-photo-06.jpg" alt="Villa interior with staircase and finished living area" /><figcaption>Interior finish</figcaption></figure><figure><img src="/images/villa-works/villa-project-photo-01.jpg" alt="Villa project exterior at construction and finishing stage" /><figcaption>Villa project · exterior works</figcaption></figure><figure><img src="/images/villa-works/villa-project-photo-03.jpg" alt="Interior finishing in a villa project" /><figcaption>Interior finishing</figcaption></figure><figure><img src="/images/villa-works/villa-project-photo-04.jpg" alt="Staircase and interior finishing in a villa project" /><figcaption>Staircase detail</figcaption></figure><figure><img src="/images/villa-works/villa-project-photo-05.jpg" alt="Living area with interior finishes in a villa project" /><figcaption>Living area</figcaption></figure></div></div><div class="page-number">38</div></section>`;
-const profileWithProjectPages = `${profileBeforePage11}${selectedVillaWorksPage}${pages21to35}${profileAfterPage10}${remainingProjectPages}</main>`;
+const qualityPolicyPage = `<section class="sheet quality-policy-page" id="p39" aria-label="Page 39: Quality Policy Statement"><img class="quality-policy-image" src="/images/quality-policy-2026.png" alt="WM Infra Quality Policy Statement" /><div class="page-number">39</div></section>`;
+const profileWithProjectPages = `${profileBeforePage11}${selectedVillaWorksPage}${qualityPolicyPage}${pages21to35}${profileAfterPage10}${remainingProjectPages}</main>`;
 
 export default function HomePage() {
   return <div dangerouslySetInnerHTML={{ __html: profileWithProjectPages }} />;

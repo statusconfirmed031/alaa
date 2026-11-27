@@ -469,6 +469,9 @@
 .villa-showcase-gallery figure:first-child { grid-row: 1 / 3; }
 .villa-showcase-gallery img { width: 100%; height: 100%; min-height: 0; object-fit: cover; border-radius: 8px; box-shadow: 0 7px 20px rgba(18,35,72,.14); border: 1px solid rgba(255,255,255,.85); }
 .villa-showcase-gallery figcaption { padding: 6px 2px 0; color: var(--muted); font-size: clamp(7px, .55vw, 11px); line-height: 1.15; }
+.quality-policy-page { background: #fff; }
+.quality-policy-page .quality-policy-image { display: block; width: 100%; height: 100%; object-fit: contain; object-position: center; }
+.quality-policy-page .page-number { z-index: 2; }
 @media(max-width:620px){
   .villa-showcase-body { inset: 12% 5% 8%; grid-template-columns: .9fr 1.1fr; gap: 3%; }
   .villa-showcase-copy h1 { font-size: clamp(18px, 5vw, 28px); }
