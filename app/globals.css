@@ -522,3 +522,24 @@
 }
 
 .quality-policy-page .sheet-top { z-index: 3; }
+
+/* Generated Cloudinary artwork for requested showcase pages */
+.profile-page-artwork { position: absolute; z-index: 1; overflow: hidden; border-radius: 10px; box-shadow: 0 10px 28px rgba(18,35,72,.14); }
+.profile-page-artwork img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.landmarks-page .profile-page-artwork { left: 5.7%; right: 5.7%; bottom: 5.5%; height: 23%; }
+.operator-page .profile-page-artwork,
+.emaar-page .profile-page-artwork { top: 22%; right: 6%; width: 42%; height: 62%; }
+.operator-page .sheet-body,
+.emaar-page .sheet-body { left: 8%; right: 50%; align-items: flex-start; text-align: left; }
+.operator-page .operator-stat,
+.emaar-page .emaar-stat { justify-content: flex-start; }
+.project-detail-page.single-artwork .project-detail-gallery { right: 5%; top: 9%; bottom: 8%; width: 53%; height: auto; grid-template-columns: 1fr; grid-template-rows: 1fr; }
+.project-detail-page.single-artwork .project-detail-gallery img:first-child { grid-column: auto; }
+@media(max-width:900px) {
+  .operator-page .sheet-body,
+  .emaar-page .sheet-body { left: 8%; right: 8%; }
+  .operator-page .profile-page-artwork,
+  .emaar-page .profile-page-artwork { top: 56%; right: 8%; width: 84%; height: 30%; }
+  .landmarks-page .profile-page-artwork { height: 20%; }
+  .project-detail-page.single-artwork .project-detail-gallery { left: 8%; right: 8%; top: auto; bottom: 6%; width: auto; height: 25%; }
+}

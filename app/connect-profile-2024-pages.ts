@@ -24,9 +24,14 @@ function renderProject(project: Project, index: number) {
   const description = escapeHtml(compactDescription(project.description));
   const mainImage = project.images[0];
   const secondaryImages = project.images.slice(1);
-  const galleryImages = [mainImage, ...secondaryImages].filter(Boolean) as string[];
+  const supplementalArtwork: Record<number, string> = {
+    36: "https://res.cloudinary.com/dgflfauty/image/upload/v1795824290/wminfra/profile/generated/page-36-finishing-work.png",
+    37: "https://res.cloudinary.com/dgflfauty/image/upload/v1795824311/wminfra/profile/generated/page-37-tile-design.png",
+  };
+  const galleryImages = [supplementalArtwork[pageNumber], mainImage, ...secondaryImages].filter(Boolean) as string[];
+  const galleryClass = galleryImages.length === 1 ? " single-artwork" : "";
   const mainGallery = galleryImages.length
-    ? `<div class="project-detail-gallery" aria-label="${title} project photographs">${galleryImages
+    ? `<div class="project-detail-gallery${galleryClass}" aria-label="${title} project photographs">${galleryImages
         .slice(0, 3)
         .map(
           (image, imageIndex) =>
