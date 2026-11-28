@@ -37,7 +37,7 @@ const archiveLink = '<span class="toc-page">10</span></a><a class="toc-item" hre
 const withProjectsLink = filteredProfileMarkup.replace(tocEnd, archiveLink);
 const withUpdatedPageCount = withProjectsLink.replace(
   "Company Profile, 68 pages",
-  "Company Profile, 33 pages",
+  "Company Profile, 36 pages",
 );
 const projectSections = connectProfile2024PagesMarkup.match(/<section\b[\s\S]*?<\/section>/g) ?? [];
 const pages21to35 = projectSections
